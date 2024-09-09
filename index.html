@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: blue;
+        padding-top: 50px;
+        text-align: center;
+      }
+
+      /* for small screen */
+
+      @media (max-width: 600px) {
+        body {
+          background-color: green;
+        }
+      }
+
+      /* for medium screen */
+
+      @media (min-width: 600px) and (max-width: 900px) {
+        body {
+          background-color: teal;
+        }
+      }
+      /* for larger screen */
+      @media (min-width: 900px) {
+        body {
+          background-color: gold;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Media Query</h1>
+  </body>
+</html>
